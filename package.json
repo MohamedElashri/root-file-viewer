@@ -29,6 +29,9 @@
         "selector": [
           {
             "filenamePattern": "*.root"
+          },
+          {
+            "filenamePattern": "*.sim"
           }
         ],
         "priority": "default"
@@ -38,7 +41,7 @@
       {
         "id": "root",
         "extensions": [
-          ".root"
+          ".root", ".sim"
         ],
         "aliases": [
           "ROOT"
